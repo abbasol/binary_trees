@@ -1,0 +1,43 @@
+{
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build binary_tree_size",
+			"command": "gcc",
+			"args": [
+				"-g",
+				"-Wall",
+				"-Wextra",
+				"-Werror",
+				"-pedantic",
+				"binary_tree_print.c",
+				"11-binary_tree_size.c",
+				"11-main.c",
+				"0-binary_tree_node.c",
+				"2-binary_tree_insert_right.c",
+				"-o",
+				"11-size"
+			],
+		},
+		{
+			"type": "shell",
+			"label": "build binary_tree_is_full",
+			"command": "gcc",
+			"args": [
+				"-g",
+				"-Wall",
+				"-Wextra",
+				"-Werror",
+				"-pedantic",
+				"binary_tree_print.c",
+				"15-binary_tree_is_full.c",
+				"15-main.c",
+				"0-binary_tree_node.c",
+				"2-binary_tree_insert_right.c",
+				"-o",
+				"15-full"
+			],
+		},
+	],
+	"version": "2.0.0"
+}
